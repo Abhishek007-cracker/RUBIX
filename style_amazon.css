@@ -1,0 +1,58 @@
+/* Recipe Card */
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_menu
+{
+    background-color: #b1a28f;
+    position: fixed;
+    z-index: 10;
+    
+}
+
+.navbar
+{
+    background-color: #b1a28f;
+    z-index: 10;
+}
+
+
+#container {
+    /*margin: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 50px;
+    column-gap: 80px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-image: url(amazon_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .card-img-top {
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+  }
+
+  .card-title
+  {
+    margin-top: 10px;
+  }
+
+  .btn
+  {
+    margin-top: 10px;
+    margin-left: 100px;
+  }

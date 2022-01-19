@@ -1,44 +1,36 @@
 body{
-    margin-top: 20px;
-    background-color: lightgrey;
-}
-.main{
-    padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.topbar{
-    background-color: burlywood;
-    overflow: hidden;
-}
-.topbar a{
-    float: right;
-    color: whitesmoke;
     text-align: center;
-    padding:20px 26px ;
-    text-decoration: none;
-    font-size: 26px;
+    background-image: url('bg-4.jpg');
+    background-size: cover;
 }
-.sidebar{
-    background-color: burlywood;
-    color: white;
-    height: 100%;
-
-}
-.sidebar a{
-    margin-left: 10px;
-    display: block;
-    color: white;
-    padding-bottom: 10px;
-    font-size: 30px;
-    text-decoration: none;
-
-}
-.card{
+.navbar
+{
     position: relative;
-    display: flex;
-    flex-direction: column;
+    background-color: gray;
+    z-index: 10;
+}
+
+.button1{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: bolder;
+    color: rgb(112, 93, 97);
+    box-shadow: darkorange;
+    
+    text-align: center;
+    border-radius: 50px;
+   box-sizing: content-box;
+   background-color: burlywood;
+   border-style: thick;
+   border-width: 2vh;
 
 }
-.content{
-    background-color: whitesmoke;
+.heading{
+    margin-top: 50px;
+    color: blanchedalmond;
+    margin-right: 50px;
+
 }
